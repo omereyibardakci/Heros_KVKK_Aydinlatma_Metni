@@ -1,0 +1,276 @@
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Heros — KVKK Aydınlatma Metni</title>
+  <style>
+    :root{
+      --accent:#0b5ed7;
+      --bg:#f7f9fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --maxw:980px;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background:var(--bg);
+      color:#111827;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:var(--maxw);
+      margin:32px auto;
+      padding:28px;
+    }
+    .card{
+      background:var(--card);
+      border-radius:10px;
+      box-shadow:0 6px 20px rgba(15,23,42,0.06);
+      padding:30px;
+      border:1px solid #e6eef8;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:18px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;
+      height:56px;
+      border-radius:8px;
+      background:linear-gradient(135deg,var(--accent),#0a58ca);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:700;
+      box-shadow:0 4px 14px rgba(11,94,215,0.18);
+      flex:0 0 56px;
+    }
+    h1{font-size:20px;margin:0;color:var(--accent)}
+    .meta{margin-top:6px;color:var(--muted);font-size:13px;}
+    hr{border:0;border-top:1px solid #eef3f8;margin:22px 0}
+    h2{color:#0f1724;margin:18px 0 8px;font-size:16px}
+    h3{margin:14px 0 6px;font-size:14px;color:#0f1724}
+    p{margin:8px 0;color:#111827}
+    ul{margin:8px 0 16px 20px}
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:12px 0 20px;
+      font-size:14px;
+    }
+    th,td{
+      text-align:left;
+      padding:10px 12px;
+      border-bottom:1px solid #f1f5f9;
+    }
+    th{background:#fbfdff;color:#0b5ed7;font-weight:600}
+    .muted{color:var(--muted)}
+    .strong{font-weight:700}
+    .note{font-size:13px;color:var(--muted);margin-top:14px}
+    .contact{background:#f1f7ff;padding:12px;border-radius:8px;border:1px solid #e6f0ff;margin-top:12px}
+    footer{margin-top:22px;color:var(--muted);font-size:13px}
+    @media (max-width:640px){
+      .wrap{padding:16px}
+      th,td{padding:8px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="logo">H</div>
+        <div>
+          <h1>HEROS — KVKK Aydınlatma Metni</h1>
+          <div class="meta">Yürürlük Tarihi: <strong>17.09.2025</strong> · Son Güncelleme: <strong>17.09.2025</strong></div>
+        </div>
+      </header>
+
+      <hr />
+
+      <section>
+        <h2>1. Giriş</h2>
+        <p>Bu Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") kapsamında HEROS mobil uygulaması ("Uygulama") kullanıcılarının kişisel verilerinin işlenmesine ilişkin usul ve esasları açıklamak amacıyla hazırlanmıştır. HEROS, kişisel verilerin gizliliğine önem verir; veri güvenliği için gerekli idari ve teknik tedbirleri uygular.</p>
+      </section>
+
+      <section>
+        <h2>2. Veri Sorumlusu</h2>
+        <div class="contact">
+          <p><span class="strong">Veri Sorumlusu:</span> Ömer Eyibardakçı</p>
+          <p><span class="strong">Adres:</span> Şehitkamil / Gaziantep</p>
+          <p><span class="strong">E-posta:</span> <a href="mailto:herosapptr@gmail.com">herosapptr@gmail.com</a></p>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. İşlenen Kişisel Veri Kategorileri</h2>
+        <table>
+          <thead>
+            <tr><th>Veri Kategorisi</th><th>Örnek Veri Türleri</th><th>Kullanım Amaçları</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kimlik &amp; Profil</td>
+              <td>Ad, soyad, profil fotoğrafı, kullanıcı açıklaması</td>
+              <td>Hesap yönetimi, profil görüntüleme, ilanlarda gösterim</td>
+            </tr>
+            <tr>
+              <td>İletişim</td>
+              <td>E-posta, telefon (kullanıcı paylaşımı halinde)</td>
+              <td>İletişim, doğrulama, bildirim gönderimi</td>
+            </tr>
+            <tr>
+              <td>Konum</td>
+              <td>Şehir, ilçe, (kullanıcı izin verirse GPS)</td>
+              <td>Kayıp hayvan bildirimleri, yakınlık servisleri</td>
+            </tr>
+            <tr>
+              <td>Medya</td>
+              <td>Pet fotoğrafları, profil görselleri</td>
+              <td>İlan yayınlama, görsel içerik yönetimi</td>
+            </tr>
+            <tr>
+              <td>Teknik &amp; Güvenlik</td>
+              <td>IP adresi, cihaz bilgisi, log kayıtları</td>
+              <td>Güvenlik, hata takibi, kötüye kullanım tespiti</td>
+            </tr>
+            <tr>
+              <td>Mesajlaşma</td>
+              <td>Kullanıcılar arası mesaj içerikleri, zaman damgası</td>
+              <td>İletişim hizmetinin sağlanması (Uygulama içi)</td>
+            </tr>
+            <tr>
+              <td>Abonelik &amp; Ödeme</td>
+              <td>Abonelik durumu, ödeme işlem bilgileri (Google Play üzerinden)</td>
+              <td>Premium hizmetlerin sağlanması, faturalama</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="note"><strong>Not:</strong> Yukarıdaki veri türleri, kullanıcının uygulama içi tercihleri ve sunduğu içerikler doğrultusunda değişiklik gösterebilir.</p>
+      </section>
+
+      <section>
+        <h2>4. İşleme Amaçları ve Hukuki Dayanaklar</h2>
+        <p>HEROS tarafından kişisel verileriniz aşağıdaki amaçlarla ve KVKK'da belirtilen hukuki sebeplere dayanılarak işlenir:</p>
+        <ul>
+          <li><strong>Hizmetin sunulması (Sözleşmenin ifası):</strong> İlan oluşturma, sahiplendirme süreçlerinin yürütülmesi, mesajlaşma hizmeti.</li>
+          <li><strong>Güvenlik ve meşru menfaat:</strong> Hesap güvenliği, kötüye kullanım ve dolandırıcılığın önlenmesi.</li>
+          <li><strong>Açık rıza:</strong> Pazarlama ve isteğe bağlı özellikler için kullanıcının verdiği rıza.</li>
+          <li><strong>Yasal yükümlülük:</strong> Mevzuattan doğan saklama ve bildirim yükümlülüklerinin yerine getirilmesi.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Kişisel Verilerin Aktarımı</h2>
+        <p><strong>Heros kişisel verilerinizi üçüncü kişilere satmaz veya ticari amaçla paylaşmaz.</strong></p>
+        <p>Uygulama işleyişi için teknik hizmet sağlayıcılarla sınırlı; ancak üçüncü şahıs/kurumlarla paylaşım yapılmayacaktır. Yalnızca kanunen zorunlu hallerde yetkili kamu kurumlarına bilgi verilebilir.</p>
+      </section>
+
+      <section>
+        <h2>6. Veri Toplama Yöntemi</h2>
+        <ul>
+          <li><strong>Doğrudan toplama:</strong> Kullanıcı kayıtları, profil formları, ilan girişi.</li>
+          <li><strong>Otomatik toplama:</strong> Uygulama kullanım logları, hata raporları, teknik veriler.</li>
+          <li><strong>Kullanıcı içerikleri:</strong> Mesajlar, yorumlar, yüklenen fotoğraflar.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Saklama Süreleri</h2>
+        <table>
+          <thead><tr><th>Veri Türü</th><th>Saklama Süresi</th></tr></thead>
+          <tbody>
+            <tr><td>Aktif kullanıcı verileri</td><td>Hesap aktif olduğu sürece</td></tr>
+            <tr><td>Silme talebiyle veriler</td><td>Silme talebinden sonra 30 gün içinde kaldırılır</td></tr>
+            <tr><td>Yasal zorunluluk gerektiren veriler</td><td>Kanunda belirtilen süreler (ör. 5–10 yıl)</td></tr>
+            <tr><td>Güvenlik logları</td><td>2 yıl</td></tr>
+            <tr><td>Mesajlaşma verileri</td><td>1 yıl (silme talebi sonrası belirtilen süreçler uygulanır)</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Saklama süreleri, ilgili mevzuat ve uygulama ihtiyaçları doğrultusunda güncellenebilir.</p>
+      </section>
+
+      <section>
+        <h2>8. Veri Güvenliği Önlemleri</h2>
+        <p>HEROS, kişisel verilerin güvenliğini sağlamak için idari ve teknik tedbirler uygular. Başlıca önlemler:</p>
+        <ul>
+          <li>Veri iletimi ve depolamada şifreleme (HTTPS/SSL)</li>
+          <li>Rol bazlı erişim kontrolleri ve yetkilendirme</li>
+          <li>Düzenli güvenlik taramaları ve penetrasyon testleri</li>
+          <li>Veri yedekleme ve felaket kurtarma planları</li>
+          <li>Personel için veri güvenliği eğitimi</li>
+          <li>7/24 izleme ve alarm sistemleri</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>9. KVKK Kapsamındaki Haklarınız</h2>
+        <p>KVKK'nın 11. maddesi uyarınca veri sahipleri aşağıdaki haklara sahiptir:</p>
+        <ul>
+          <li>Kişisel verilerinin işlenip işlenmediğini öğrenme</li>
+          <li>İşlenmişse buna ilişkin bilgi talep etme</li>
+          <li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme</li>
+          <li>Yurt içinde/yurt dışında verilerin kimlere aktarıldığını öğrenme</li>
+          <li>Eksik/yanlış işlenmiş verilerin düzeltilmesini isteme</li>
+          <li>Verilerin silinmesini veya anonim hâle getirilmesini isteme</li>
+          <li>İşlemenin kısıtlanmasını isteme</li>
+          <li>Verilerin taşınmasını isteme</li>
+          <li>İşlemeye itiraz etme</li>
+          <li>Kanuna aykırı işleme sonucu zarar oluştuysa tazminat talep etme</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>10. Hakların Kullanımına İlişkin Usul</h2>
+        <p>KVKK kapsamındaki haklarınızı kullanmak için başvurularınızı aşağıdaki yollardan iletebilirsiniz. Başvurularınız en geç 30 gün içinde sonuçlandırılır.</p>
+        <div class="contact">
+          <p><strong>E-posta:</strong> <a href="mailto:herosapptr@gmail.com">herosapptr@gmail.com</a></p>
+          <p><strong>Adres:</strong> Şehitkamil / Gaziantep</p>
+        </div>
+        <p class="note">Başvurular ücretsizdir; ancak KVKK'da öngörülen durumlarda ücret talep edilebilir. Başvuruların yazılı, elektronik veya uygulama içi yöntemlerle yapılması mümkündür.</p>
+      </section>
+
+      <section>
+        <h2>11. Çerez Politikası</h2>
+        <p>Web sitesi ve uygulama üzerinde aşağıdaki çerez türleri kullanılabilir:</p>
+        <ul>
+          <li><strong>Zorunlu çerezler:</strong> Site ve uygulama işlevleri için gerekli.</li>
+          <li><strong>Fonksiyonel çerezler:</strong> Kullanıcı tercihlerini hatırlama.</li>
+          <li><strong>Analitik çerezler:</strong> Kullanım verilerinin anonim olarak toplanması ve analiz edilmesi.</li>
+          <li><strong>Pazarlama çerezleri:</strong> Sadece açık rıza alınması halinde kullanılır.</li>
+        </ul>
+        <p class="note">Çerez tercihlerinizi tarayıcı ayarlarından yönetebilirsiniz.</p>
+      </section>
+
+      <section>
+        <h2>12. Uluslararası Veri Transferi</h2>
+        <p>Heros, verileri öncelikle kendi altyapısında saklar. Hizmetlerin çalışması amacıyla teknik servis sağlayıcılarının sunucularında veri tutulması gerekebilir. Ancak kullanıcı verileri <strong>üçüncü şahıslar veya kurumlar ile paylaşılmaz</strong>. Yasal zorunluluk olması halinde yetkili mercilerle paylaşım yapılabilir.</p>
+      </section>
+
+      <section>
+        <h2>13. Veri İhlali Durumu</h2>
+        <p>Herhangi bir kişisel veri ihlali tespit edildiğinde HEROS, KVKK ve ilgili düzenlemeler çerçevesinde gerekli bildirimleri ve düzeltici işlemleri gerçekleştirir. İhlal durumunda etkilenen kişilere ve ilgili idari makamlara uygun sürelerde bildirim yapılacaktır.</p>
+      </section>
+
+      <section>
+        <h2>14. Politika Güncellemeleri</h2>
+        <p>Bu Aydınlatma Metni zaman içinde güncellenebilir. Güncellemeler web sitesi veya uygulama üzerinden yayımlandığı tarihten itibaren yürürlüğe girer. Önemli değişikliklerde kullanıcılar bilgilendirilecektir.</p>
+      </section>
+
+      <footer>
+        <p class="muted">Bu metin HEROS uygulamasının KVKK kapsamındaki aydınlatma yükümlülüğünü yerine getirmek üzere hazırlanmıştır. Hukuki açıdan kesinlik gerektiren durumlarda lütfen hukuki danışmanınızla görüşünüz.</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
+```
